@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.ld-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #000;
+  height: 25vh;
+  width: 40vw;
+  border-radius: 20px;
+}
+
+.mode-button {
+  height: 40px;
+  width: 120px;
+  cursor: pointer;
+}
+.dark-mode {
+  background-color: #000;
+}
+.light-mode {
+  background-color: #fff;
+}
+.light-text-mode {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+.dark-text-mode {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+}
